@@ -54,3 +54,29 @@
 // for the navigation links in the NavBar.
 
 /* --- YOUR COMPONENT CODE GOES HERE --- */
+import HeroSection from "./components/HeroSection";
+import FooterSection from "./components/FooterSection";
+
+
+export default function App() {
+
+return (
+    <div className="app">
+
+
+
+    <section className="hero bg-hero">
+    <div className="hero-grid">
+    <HeroSection/>
+    </div>
+    </section>
+
+<section className="bg-footer">
+    <FooterSection/>
+</section>
+
+
+</div>
+
+)
+}
